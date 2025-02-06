@@ -22,6 +22,8 @@ A web application that enhances and upscales anime images using AI-powered super
 
 ### Windows
 
+Using PowerShell (recommended):
+
 ```powershell
 # Clone the repository
 git clone [your-repo-url]
@@ -29,6 +31,17 @@ cd [your-repo-name]
 
 # Run the setup script
 .\setup_and_run.ps1
+```
+
+Using Command Prompt:
+
+```cmd
+# Clone the repository
+git clone [your-repo-url]
+cd [your-repo-name]
+
+# Run the setup script
+setup_and_run.bat
 ```
 
 ### Linux/macOS
@@ -70,8 +83,9 @@ The setup script will:
 │   ├── public/               # Public assets
 │   └── package.json          # Node.js dependencies
 │
-├── setup_and_run.ps1         # Windows setup script
-└── setup_and_run.sh          # Linux/macOS setup script
+├── setup_and_run.ps1         # Windows PowerShell script
+├── setup_and_run.bat         # Windows CMD script
+└── setup_and_run.sh          # Linux/macOS script
 ```
 
 ## 🌐 Usage
